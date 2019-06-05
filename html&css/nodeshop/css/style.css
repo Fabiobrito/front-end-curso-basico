@@ -39,3 +39,23 @@ p{font-size: 1em;color: #777;}
 	width: 15%;
 	padding: 15px;
 }
+
+/*MENU*/
+.menu{
+	width: 100%;
+	background-color: #111;
+	float: left;
+	padding: 18px 8%;
+	
+}
+.menu li{
+	float: left; /*faz a lista ficar de lado e nao abaixo */	
+}
+.menu li a{
+	color: #9d9d9d;
+	margin-right: 25px;
+	
+}
+.menu li a:hover{
+	color: #fff;/* quando o mouse passar muda a cor para branco*/
+}
