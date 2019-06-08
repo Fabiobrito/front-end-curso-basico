@@ -33,11 +33,13 @@ p{font-size: 1em;color: #777;}
 	width: 85%;
 	float:left;
 	padding: 15px 10px;
+	border-radius: 5px 0px 0px 5px;/*deixa a borda arredondada da ponta de cima e de baixo do lado esquerdo da busca*/
 }
 
 .cabecalho button{
 	width: 15%;
 	padding: 15px;
+	border-radius: 0px 5px 5px 0px;/*deixa a borda arredondada da ponta de cima e de baixo do lado direito da busca*/
 }
 
 /*MENU*/
@@ -58,4 +60,26 @@ p{font-size: 1em;color: #777;}
 }
 .menu li a:hover{
 	color: #fff;/* quando o mouse passar muda a cor para branco*/
+}
+
+/*Social Icons */
+.social-icons{
+	float: right;
+}
+
+.social-icons a{
+	color:#fff;
+	margin-left: 25px;
+
+}
+.fb:hover{
+	color:#3b5998;
+}
+
+.tt:hover{
+	color: #54a4d6;;
+}
+
+.goo:hover{
+	color:#D73D32;
 }
